@@ -213,7 +213,7 @@ nav ul li a{
 }
 
 footer {
-    background-color: black;
+    background-color: red;
     display: flex;
     align-items: center;
     justify-content: space-between;
