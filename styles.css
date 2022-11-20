@@ -1,7 +1,10 @@
 
 
-
+*{
+    padding: 0%;
+}
 /* team tutorial bostra*/
+/*i
 .team-container{
     width: 100%;
     background-color: black;
@@ -11,58 +14,8 @@
     display: flex;
     justify-content: center;
 }
+*/
 
-#row{
-    background-color:yellow;
-    display: flex;
-    justify-content: center;
-}
-
-#team-tittle{
-    text-align: center;
-    font-weight: bold;
-    letter-spacing: 2px;
-    color: white;
-    padding-bottom: 10px;
-}
-
-
-#team-tittle:after{
-    content: '';
-    background: white ;
-    display: flex;
-    height: 3px;
-    width: 150px;
-    margin: 10px auto;
-
-}
-
-.profile-text-container{
-    margin-top: 25px;
-}
-
-.img-box{
-    opacity: 1;
-}
-
-.profile-text1{
-    font-size: 22px;
-    font-weight: bold;
-    margin-top: 15px;
-    color: aliceblue;
-}
-
-.profile-text2{
-    font-size: 15px;
-    font-weight: bold;
-    margin-top: 15px;
-    color: aliceblue;
-
-
-}
-.profile-text3{
-    color: aliceblue;
-}
 
 /* hero totorual*/
 .hero{
@@ -70,7 +23,7 @@
     height: 100vh;
     background-image: linear-gradient(rgba(12,3,51,0.3), rgba(12,3,51,0.3));
     position: relative;
-    padding: 0 5%;
+    padding: 0 8%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -81,7 +34,7 @@ nav{
     position: absolute;
     top: 0;
     left: 0;
-    padding: 12px 8px;
+    padding: 12px 0px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -135,6 +88,79 @@ nav ul li a{
 }
 
 /* fin totorial hero*/
+.team-container{
+    width: 100%;
+    background-color: black;
+    padding: 0 8%;
+    
+
+}
+.row1{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.row2{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+/*
+
+#row{
+    background-color:black;
+    display: flex;
+    justify-content: center;
+}
+*/
+
+#team-tittle{
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: white;
+    padding-bottom: 10px;
+}
+
+
+#team-tittle:after{
+    content: '';
+    background: white ;
+    display: flex;
+    height: 3px;
+    width: 150px;
+    margin: 10px auto;
+
+}
+
+
+
+
+.profile-text-container{
+    margin: 20px;
+}
+
+.profile-text1{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 15px;
+    color: aliceblue;
+}
+
+.profile-text2{
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 15px;
+    color: aliceblue;
+
+
+}
+.profile-text3{
+    color: aliceblue;
+}
+
 
 
 
